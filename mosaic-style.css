@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+}
+.tile {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    transition: background-color 0.3s;
+}
+.checkbox {
+    display: none;
+}
+.checkbox:checked + .tile1 {
+    background-color: #4CAF50; /* Change color on click */
+}
